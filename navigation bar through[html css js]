@@ -1,0 +1,104 @@
+#Through HTML & CSS using CSS-style /TABLE-style.
+
+<!Doctype html>
+<html lang="en" dir="ltr">
+<meta charset="utf-8">
+<meta name="description" content="Making tabs">
+<meta name="author" content="shubham singh">
+<meat name="viewport" content="width=device-width,initial-scale=1.0">
+<head>
+<title>Making tab</title>
+</head>
+<body>
+
+
+#Navigation bar through table styling
+<table border="0px" >
+<tr >
+<th id="th"><a href="">HOME </a></th>
+<th id="th"><a href="about.html">ABOUT</a></th>
+<th id="th"><a href="">CONTACT</a></th>
+<th id="th"><a href="">GALLARY</a></th>
+<th id="th"><a href="">DETAILS</a></th>
+</tr>
+</table>
+
+<!--style codes here-->
+<style>
+#th
+{
+	padding:9px;
+	width:100px;
+	height:5px;
+	color:white;
+	background-color:black;
+	
+}
+th:hover
+{ 
+	background-color:blue;
+}
+</style>
+
+
+
+
+
+<br>
+<br>
+<br>
+<br>
+#Navigation bar through UL List
+<ul>
+<li class ="active"><a href="#">Home</li>
+<li><a href="about.html">About</li>
+<li><a href="#">Contact</li>
+<li><a href="#">Feedback</li>
+</ul>
+
+<style>
+ul
+{
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	height:36px;
+	width:600px;
+	line-height:36px;
+	background-color:#000;
+	font-family:Ariel,sans-serif;
+	font-size:18px;
+	
+	
+}
+
+li
+{
+	float:left;
+	border-right:1px solid #156ee2;
+	
+}
+
+a
+{
+	display:block;
+	padding:0 28px;
+	color:#fff;
+	text-decoration:none;
+	
+}
+		
+a:hover
+{
+	background-color:#156ee2;
+}
+
+.active a
+{
+	background-color:#156ee2;
+}
+
+</style>
+
+</body>
+</html>
